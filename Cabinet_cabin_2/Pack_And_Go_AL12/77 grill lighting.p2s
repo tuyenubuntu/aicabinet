@@ -1,0 +1,36 @@
+lighting custom
+"77 grill lighting.p2l"
+shadow 
+transparent 0 0 
+environment
+showroom 
+north nonvisible nonreflective "Materials\plastic\high gloss\default plastic.p2m"
+without_mapping
+south nonvisible nonreflective "Materials\plastic\high gloss\default plastic.p2m"
+without_mapping	
+east nonvisible nonreflective "Materials\plastic\high gloss\default plastic.p2m"
+without_mapping 
+west nonvisible nonreflective "Materials\plastic\high gloss\default plastic.p2m"
+without_mapping 
+ceiling nonvisible nonreflective "Materials\plastic\high gloss\default plastic.p2m"
+without_mapping 
+floor visible reflective "Materials\miscellaneous\studio materials\reflective shadow floor.p2m"
+without_mapping
+end_textures
+offset 0.0
+end_positions
+model xz_plane
+background
+graduated
+color 0.050000 0.040000 0.02000 
+color 0.960000 0.870000 0.77000 
+none 
+background_environment
+image "images\textures\background\orange_beads.hdr"
+spherical_env
+environment_multipliers 1.0 0.7
+sw_scene_rotating_envmap 1
+pv_background_image_brightness 0.9 
+pv_rendering_brightness 1.5 
+pv_scene_reflectivity 0.500000 
+end
